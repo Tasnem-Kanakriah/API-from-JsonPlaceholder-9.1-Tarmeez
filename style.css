@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(228, 238, 235);
+    padding: 10px;
+}
+
+.users {
+    width: 30%;
+}
+
+.user {
+    border-radius: 10px;
+    background-color: rgb(189, 132, 132);
+    margin: 20px 10px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.user.active {
+    box-shadow: 0 0 10px 5px rgb(56, 56, 50);
+}
+
+h3 , p {
+    margin:0;
+}
+
+hr {
+    margin: 4px;
+    border: 1px solid black;
+}
+
+.posts {
+    width: 70%;
+}
+
+.post {
+    border-radius: 10px;
+    background-color: rgb(179, 144, 211);
+    margin: 10px;
+    padding: 10px 20px;
+}
